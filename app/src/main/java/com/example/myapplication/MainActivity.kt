@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream
-
 class MainActivity : AppCompatActivity() {
     private var messageToDecrypt: String? = null
     private var messageToEncrypt: String? = null
